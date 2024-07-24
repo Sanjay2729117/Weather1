@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import searchIcon from '../assets/searchIcon.png'
 import HumidityIcon from "../assets/humidity.png"
 import windSpeedIcon from "../assets/wind Speed.png"
@@ -74,6 +74,9 @@ const Weather = () => {
             setloading(false);
         }
     }
+    useEffect(function(){
+        search();
+    },[])
     function handle(e){
     if(e.key=="Enter"){
        search();
