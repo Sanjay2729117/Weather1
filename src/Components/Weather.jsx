@@ -91,7 +91,7 @@ const Weather = () => {
   return (
     <div className='weather'>
       <div className='Search'>
-        <input type='text' placeholder='Enter City' onChange={handleset} onKeyDown={handle}/>
+        <input type='text' value={City}  placeholder='Enter City' onChange={handleset} onKeyDown={handle}/>
         <img src={searchIcon} alt="SearchIcon" onClick={handlesearch}/>
       </div>
    {!error && <div className='weathercondition'>
