@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+  background-color: #e1e1e1;
+  font-family: "Nunito Sans", sans-serif;
+ }
+ .celsius{
+  font-size: 20px;
+  font-weight: bold;
+ }
+ .cityname{
+  font-weight: bolder;
+  font-size: 24px;
+  color: #43ffae;
+ }
+ .Country{
+  font-weight:700;
+  font-size: 16px;
+  color: #06080A;
+ }
+.weather{
+  width: 90%;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 5%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding-top: 2%;
+}
+.Search{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #70ffdee3;
+  height: 25px;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 5%;
+  align-items: center;
+  
+  padding: 3px;
+}
+.Search input{
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 2%;
+  color: #06080A;
+  font-size: 16px;
+}
+.Search img{
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  padding-right: 2%;
+}
+.weathercondition{
+  margin-left: 5%;
+  width: 90%;
+  height: 200px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.weathercondition img{
+  width: 200px;
+  height: 200px;
+
+}
+.HumidityIcon{
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.windspeedIcon{
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+.Humidity,.windspeed{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.otherdetails{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  
+}
+p{
+  font-weight: bolder;
+  font-size: 24px;
+  color: gray;
+}
+.weatherdetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.coords{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.latitude,.longtitude{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  gap: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+}
